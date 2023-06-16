@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Calculadora de PG - Primeiro Termo</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Calculadora de PG - Primeiro Termo (A1)</h1>
+  </header>
+
+  <main>
+    <h2>Informe os valores para calcular o primeiro termo (A1)</h2>
+    <form id="calc-form">
+      <label for="an">Termo qualquer (An):</label>
+      <input type="text" id="an" name="an">
+      
+      <label for="r">Razão (r):</label>
+      <input type="text" id="r" name="r">
+      
+      <label for="n">Número do termo (n):</label>
+      <input type="text" id="n" name="n">
+      
+      <button type="submit">Calcular</button>
+    </form>
+
+    <div id="calc-result"></div>
+    <div id="calculation-steps"></div>
+  </main>
+
+  <script src="pg-a1.js"></script>
+</body>
+</html>
